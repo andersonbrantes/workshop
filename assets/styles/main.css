@@ -12,6 +12,10 @@ a {
 	color: #393499;	
 }
 
+menu {
+	margin: 10px 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	padding: 10px;
 	text-align: center;
@@ -22,6 +26,18 @@ h1, h2, h3, h4, h5, h6 {
 header h1 {
 	padding-top: 30px;
 }
+
+article h3 {
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	margin: 30px 10px 5px 10px;
+}
+
+article span {
+	padding: 10px;
+	text-decoration: underline;
+}
+
 p {
 	padding: 10px;
 	color: #666;
@@ -38,7 +54,7 @@ ul a {
 	text-align: center;
 	text-decoration: none;
 	color: #FFF;
-	background: #BBB;
+	background: #6177A6;
 }
 
 footer p {
