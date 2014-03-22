@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 1rem;
+	box-sizing: border-box;
+}
+*:before, *::before, *:after, *::after {
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: #393499;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 10px;
+	text-align: center;
+	clear: both;
+	color: #393499;	
+}
+
+header h1 {
+	padding-top: 30px;
+}
+p {
+	padding: 10px;
+	color: #666;
+}
+
+ul {
+	list-style: none;
+}
+
+ul a {
+	padding: 10px;
+	border: 1px solid #FFF;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	background: #BBB;
+}
+
+footer p {
+	text-align: center;
+	padding: 10px 0 20px;	
+}
+
+footer h1 {
+	font-size: 1.5em;
+}
+
+h1 a {
+	color: #393499;
+	text-decoration: none;
+}
